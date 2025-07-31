@@ -246,7 +246,7 @@ class SlideShow {
         if (slide.type === 'video' && slide.src && !slide.placeholder) {
             const video = element.querySelector('video');
             if (video) {
-                video.volume = 0.4; // Set volume to 60%
+                video.volume = 0.8; // Set volume to 60%
                 video.currentTime = 0;
                 
                 // Only play video if slideshow is not paused
