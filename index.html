@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Wrapped Story</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="app-container">
+        <!-- Desktop Navigation Buttons -->
+        <div class="desktop-nav left">
+            <button class="nav-btn" id="desktopPrevBtn">
+                <i class="fas fa-chevron-left"></i>
+            </button>
+        </div>
+        <div class="desktop-nav right">
+            <button class="nav-btn" id="desktopNextBtn">
+                <i class="fas fa-chevron-right"></i>
+            </button>
+        </div>
+        
+        <div class="phone-container">
+            <div class="slideshow-container">
+                <!-- Slides will be populated by JavaScript -->
+                <div class="slides-wrapper" id="slidesWrapper"></div>
+                
+                <!-- Story Progress Bars -->
+                <div class="story-progress" id="storyProgress"></div>
+                
+                <!-- Pause Control -->
+                <div class="pause-control">
+                    <button class="pause-btn" id="playPauseBtn">
+                        <i class="fas fa-play"></i>
+                    </button>
+                </div>
+                
+                <!-- Navigation Areas (Mobile) -->
+                <div class="nav-area left" id="leftNavArea"></div>
+                <div class="nav-area right" id="rightNavArea"></div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
