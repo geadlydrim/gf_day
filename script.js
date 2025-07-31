@@ -111,12 +111,6 @@ class SlideShow {
                     <h2 class="slide-title">${slide.title}</h2>
                     <p class="slide-description">${slide.description}</p>
                 </div>
-                ${slide.music ? `<div class="audio-player">
-                    <div class="audio-info">
-                        <i class="fas fa-music audio-icon"></i>
-                        <span>Playing background music</span>
-                    </div>
-                </div>` : ''}
             `;
         } else {
             // Placeholder photo slide
